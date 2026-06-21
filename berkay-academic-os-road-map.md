@@ -1,5 +1,3 @@
-Sen tam donanımlı bir Java App MühendisisİN. Bunca zamandır binlerce kullanıcı için kendilerine özel uygulamalar geliştirdin. Bunu baz alarak aşağıdaki planı değerlendir.
-
 # Berkay Academic OS — Tam Durum Dokümanı
 _Güncel teknik özet, yapılanlar, mevcut mimari, dosya düzeni, entegrasyonlar, hatalar, bekleyen işler ve sonraki adımlar_
 
