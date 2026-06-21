@@ -1,0 +1,206 @@
+{
+  "app": {
+    "name": "Berkay Academic OS",
+    "version": "1.2.0",
+    "theme": "light"
+  },
+  "ui": {
+    "sidebarWidth": 220,
+    "defaultStatus": "Hazır",
+    "webNotesEnabledByDefault": true
+  },
+  "storage": {
+    "notesDir": "data/notes",
+    "cacheDir": "data/cache",
+    "downloadsDir": "data/downloads"
+  },
+  "integrations": {
+    "googleDrive": {
+      "enabled": true,
+      "credentialsPath": "config/google-drive-credentials.json",
+      "tokensPath": "config/google-drive-tokens",
+      "rootFolderName": "BerkayAcademicNotes"
+    }
+  },
+  "modules": [
+    {
+      "id": "documents",
+      "name": "Belge Merkezi",
+      "category": "Verimlilik",
+      "type": "file_explorer",
+      "enabled": true,
+      "icon": "folder",
+      "message": "Belge merkezi açıldı",
+      "features": {
+        "searchEnabled": true,
+        "editorEnabled": true,
+        "googleDriveEnabled": true,
+        "localFilesEnabled": true,
+        "previewEnabled": true
+      },
+      "target": "/home/berkay/GoogleDriveMount",
+      "dataSources": {
+        "local": {
+          "enabled": false,
+          "path": ""
+        }
+      },
+      "favorites": [
+        {
+          "name": "Yerel Notlar",
+          "path": "notes"
+        },
+        {
+          "name": "Drive Mount",
+          "path": "/home/berkay/GoogleDriveMount"
+        },
+        {
+          "name": "MM 2025-2026",
+          "path": "/home/berkay/GoogleDriveMount/MM 2025-2026"
+        }
+      ],
+      "explorerOptions": {
+        "defaultRoot": "/home/berkay/GoogleDriveMount",
+        "readOnly": false,
+        "allowCreateFolder": true,
+        "allowCreateFile": true,
+        "allowRename": true,
+        "allowDelete": true,
+        "allowDragDropImport": true,
+        "showPreviewPane": true,
+        "showHiddenFiles": false
+      },
+      "previewOptions": {
+        "allowedPreviewExtensions": [
+          "txt",
+          "md",
+          "java",
+          "py",
+          "json",
+          "csv",
+          "log",
+          "xml",
+          "yaml",
+          "yml",
+          "html",
+          "css",
+          "js",
+          "ts"
+        ],
+        "openExternallyExtensions": [
+          "pdf",
+          "docx",
+          "xlsx",
+          "pptx"
+        ],
+        "maxPreviewFileSizeKb": 512
+      }
+    },
+    {
+      "id": "wikipedia",
+      "name": "Wikipedia",
+      "category": "Akademik",
+      "type": "web",
+      "enabled": true,
+      "icon": "globe",
+      "message": "Wikipedia açıldı",
+      "target": "https://www.wikipedia.org",
+      "webOptions": {
+        "internalBrowser": true,
+        "notesEnabled": true,
+        "autoLoad": true
+      }
+    },
+    {
+      "id": "bgys",
+      "name": "Bursiyer Platformu",
+      "category": "Akademik",
+      "type": "web",
+      "enabled": true,
+      "icon": "globe",
+      "message": "Bgys açıldı",
+      "target": "https://bgys.t3vakfi.org/users/login/",
+      "webOptions": {
+        "internalBrowser": true,
+        "notesEnabled": true,
+        "autoLoad": true
+      }
+    },
+    {
+      "id": "clasroom",
+      "name": "Clasroom",
+      "category": "Akademik",
+      "type": "external_web",
+      "enabled": true,
+      "icon": "globe",
+      "message": "Clasroom dış tarayıcıda açıldı",
+      "target": "https://classroom.google.com/"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "category": "Medya",
+      "type": "external_web",
+      "enabled": true,
+      "icon": "play",
+      "message": "YouTube dış tarayıcıda açıldı",
+      "target": "https://www.youtube.com"
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "category": "Yapay Zeka",
+      "type": "external_web",
+      "enabled": true,
+      "icon": "bot",
+      "message": "ChatGPT dış tarayıcıda açıldı",
+      "target": "https://chatgpt.com"
+    },
+    {
+      "id": "scripts",
+      "name": "Scriptler",
+      "category": "Araçlar",
+      "type": "script",
+      "enabled": true,
+      "icon": "terminal",
+      "message": "Script modülü çalıştırıldı",
+      "target": "scripts/test_script.py",
+      "scriptOptions": {
+        "interpreter": "python3",
+        "workingDirectory": "project_root",
+        "captureOutput": true
+      }
+    },
+    {
+      "id": "uart",
+      "name": "UART Konsolu",
+      "category": "Embedded",
+      "type": "internal",
+      "enabled": true,
+      "icon": "serial",
+      "message": "UART monitör modülü açıldı",
+      "features": {
+        "liveMonitor": true,
+        "loggingEnabled": true
+      }
+    },
+    {
+      "id": "reference",
+      "name": "Referans",
+      "category": "Akademik",
+      "type": "internal",
+      "enabled": true,
+      "icon": "book",
+      "message": "Referans modülü açıldı"
+    },
+    {
+      "id": "calendar",
+      "name": "Takvim",
+      "category": "Planlama",
+      "type": "internal",
+      "enabled": true,
+      "icon": "calendar",
+      "message": "Takvim modülü açıldı"
+    }
+  ]
+}

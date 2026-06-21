@@ -1,0 +1,27 @@
+# Java derleme dosyaları
+*.class
+*.jar
+*.war
+
+# IDE klasörleri (Hangi editörü kullanıyorsan)
+.idea/
+.vscode/
+bin/
+out/
+target/
+
+# Veritabanı ve Log dosyaları
+*.db
+*.sqlite
+*.log
+# Build ve Gradle Dosyaları
+.gradle/
+build/
+app/build/
+
+# Gizli API Anahtarları ve Kimlik Bilgileri
+config/
+*.json
+!data/reference-topics.json
+!data/tasks.json
+!app/src/main/resources/config.json

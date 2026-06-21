@@ -1,0 +1,64 @@
+[ {
+  "id" : "cc13969c-107f-45b2-a4b2-6cedb4c3e29a",
+  "title" : "Ohm Kanunu",
+  "category" : "Elektronik",
+  "summary" : "Gerilim, akım ve direnç ilişkisi",
+  "tags" : [ "devre", "ohm", "temel" ],
+  "content" : null,
+  "contentFile" : "topics/elektronik/ohm-kanunu.md",
+  "updatedAt" : "2026-04-23T23:38:47.678906095"
+}, {
+  "id" : "8012099a-cbb4-42ec-ade8-612f7cf5fb12",
+  "title" : "UART Temelleri",
+  "category" : "Embedded",
+  "summary" : "Seri haberleşme başlangıç notları",
+  "tags" : [ "uart", "seri", "esp32" ],
+  "content" : null,
+  "contentFile" : "topics/embedded/uart-temelleri.md",
+  "updatedAt" : "2026-04-23T23:38:47.679515852"
+}, {
+  "id" : "9c3b742c-d098-45da-b77f-a392f0a08995",
+  "title" : "Çift Katlı İntegral",
+  "category" : "Matematik",
+  "summary" : "Alan ve hacim hesabı için kısa özet",
+  "tags" : [ "integral", "calculus" ],
+  "content" : null,
+  "contentFile" : "topics/matematik/çift-katlı-i-ntegral.md",
+  "updatedAt" : "2026-04-23T23:38:47.679737393"
+}, {
+  "id" : "feeda37e-fdb2-4c95-b77a-dbc2b90ff280",
+  "title" : "Deneme",
+  "category" : "Genel",
+  "summary" : "deneme123123",
+  "tags" : [ "füsun", "tam", "bir", "oc" ],
+  "content" : null,
+  "contentFile" : "topics/genel/deneme.md",
+  "updatedAt" : "2026-04-23T23:39:27.323533690"
+}, {
+  "id" : "c68b70bb-4c65-458e-a724-9d12e6f2a981",
+  "title" : "Yeni Konu",
+  "category" : "Genel",
+  "summary" : "",
+  "tags" : [ ],
+  "content" : null,
+  "contentFile" : "topics/genel/yeni-konu.md",
+  "updatedAt" : "2026-04-23T23:40:25.087373597"
+}, {
+  "id" : "68705527-5f24-409e-b7f5-1d25aa749685",
+  "title" : "selam",
+  "category" : "Elektronik",
+  "summary" : "",
+  "tags" : [ ],
+  "content" : null,
+  "contentFile" : "topics/elektronik/selam.md",
+  "updatedAt" : "2026-04-23T23:40:50.857247161"
+}, {
+  "id" : "b5005ab6-1378-461c-ae56-fff81958c052",
+  "title" : "Yeni Konu",
+  "category" : "Genel",
+  "summary" : "",
+  "tags" : [ ],
+  "content" : null,
+  "contentFile" : "topics/genel/yeni-konu.md",
+  "updatedAt" : "2026-05-03T18:31:55.998500169"
+} ]
